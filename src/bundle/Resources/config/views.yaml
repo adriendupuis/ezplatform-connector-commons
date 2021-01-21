@@ -1,0 +1,7 @@
+parameters:
+    ezsettings.default.image_asset_view_defaults:
+        full:
+            default:
+                template: '@@ezdesign/commons_asset_view.html.twig'
+                match:
+                    SourceBasedViewMatcher: commons

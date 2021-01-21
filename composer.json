@@ -1,0 +1,14 @@
+{
+    "name": "adriendupuis/ezplatform-connector-commons",
+    "description": "eZ Platform Wikimedia Commons Connector",
+    "type": "ezplatform-bundle",
+    "homepage": "https://github.com/adriendupuis/ezplatform-connector-commons",
+    "autoload": {
+        "psr-4": {
+            "AdrienDupuis\\EzPlatform\\Bundle\\Connector\\Commons\\": "src/bundle/"
+        }
+    },
+    "require": {
+        "ezsystems/ezplatform-connector-dam": "^1.0"
+    }
+}
