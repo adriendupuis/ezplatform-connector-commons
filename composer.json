@@ -5,7 +5,7 @@
     "homepage": "https://github.com/adriendupuis/ezplatform-connector-commons",
     "autoload": {
         "psr-4": {
-            "AdrienDupuis\\EzPlatform\\Bundle\\Connector\\Commons\\": "src/bundle/"
+            "AdrienDupuis\\EzPlatformConnectorCommonsBundle\\": "src/bundle/"
         }
     },
     "require": {
