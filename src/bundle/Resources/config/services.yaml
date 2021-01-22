@@ -4,11 +4,14 @@ services:
         class: Ibexa\Platform\Connector\Dam\View\Search\Tab\GenericSearchTab
         public: false
         arguments:
+            $twig: '@twig'
+            $translator: '@translator'
             $identifier: 'commons'
             $source: 'commons'
             $name: 'Wikimedia Commons'
             $searchFormType: 'Ibexa\Platform\Connector\Dam\Form\Search\GenericSearchType'
             $formFactory: '@form.factory'
+            $configResolver: '@ezpublish.config.resolver'
         tags:
             - { name: ezplatform.tab, group: connector-dam-search }
 
