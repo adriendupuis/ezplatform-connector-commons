@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:jms="urn:jms:translation" version="1.2">
+  <file source-language="en" target-language="en" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="8e3bda80ab331dd06361ec8911a05a869a0b01f4" resname="ezimageasset.commons.author_attribute">
+        <source><![CDATA[<a href="%page_url%">Image</a> by %author% under <a href="%license_url%">%license%</a>]]></source>
+        <target><![CDATA[<a href="%page_url%">Image</a> by %author% under <a href="%license_url%">%license%</a>]]></target>
+        <note>key: ezimageasset.commons.author_attribute</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
