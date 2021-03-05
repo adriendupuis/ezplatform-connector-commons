@@ -8,7 +8,7 @@ Requires `ezsystems/ezplatform-connector-dam` — available only on commercial d
 
 1. `composer require adriendupuis/ezplatform-connector-commons;`
 1. Add `AdrienDupuis\EzPlatformConnectorCommonsBundle\AdrienDupuisEzPlatformConnectorCommonsBundle::class => ['all' => true],` to bundles.php
-1. In the configuration, add the DAM name `'commons'` to `content.dam` array — see [DAM Configuration](https://doc.ibexa.co/en/latest/guide/config_connector/#dam-configuration) for details.
+1. In the configuration, add the DAM name `'commons'` to `ezplatform.system.<scope>.content.dam` array — see [DAM Configuration](https://doc.ibexa.co/en/latest/guide/config_connector/#dam-configuration) for details.
 
 ## TODO
 
